@@ -14,4 +14,15 @@
             <dd><input type=submit value=Login>
         </dl>
     </form>
+
+    <br>
+    <h2> Another form use wtforms<h2>
+    {% from "_formhelpers.html" import render_field %}
+    <form method=post action="{{ url_for('login') }}" >
+       <dl>
+          {{ render_field(form.username) }}
+          {{ render_field(form.password) }}
+       </dl>
+    <p><input type=submit value=Login>
+    
 {% endblock %}
