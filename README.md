@@ -4,7 +4,6 @@
 ###简介
 一个flask框架学习的demo
 
-
 可以用作
 
 * 接触和学习flask的学习模板
@@ -16,6 +15,12 @@
 快速学习和掌握flask的基本使用 
 
 (最有效的方法是跟踪数据流)
+
+参考教程:
+http://flask.pocoo.org/docs/tutorial/
+http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+
 
 ###涉及
 
@@ -42,6 +47,8 @@
 ###部署
 
 1. checkout
+
+    git clone 
 
 2. 安装基本包
 
